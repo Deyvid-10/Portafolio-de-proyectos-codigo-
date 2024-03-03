@@ -97,7 +97,7 @@ header
   background-color: rgb(13, 13, 13);
   display: flex;
   justify-content: center;
-  height: 100px;
+  height: 80px;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -164,13 +164,12 @@ header
   border-radius: 20px;
   text-align: center;
   padding: 35px 20px 20px;
-  width: 480px;
-  margin: 135PX 15px 95px 15px;
+  margin: 120PX 15px 95px 15px;
 }
 
 #contendor_inicio img
 {
-  width: 220px;
+  width: 190px;
   background-color: #fafafa;
   border: #04B16F solid 10px;
   border-radius: 100%;
@@ -179,21 +178,21 @@ header
 
 #contendor_inicio h2
 {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 #contendor_inicio h3
 {
   margin-top: 5px;
-  font-size: 30px;
+  font-size: 27px;
   color: white;
 }
 
 .iconos
 {
-  margin: 60px 5px 0;
+  margin: 50px 5px 0;
   fill: white;
-  width: 65px;
+  width: 55px;
 }
 
 .iconos:hover
