@@ -82,6 +82,18 @@ function Portafolio() {
             <br></br>
 
             <div id="contenedor_portafolio">
+
+                <br></br>  
+
+                <p>¡Bienvenido a mi portafolio de proyectos!</p>    
+                <br></br>  
+                <p>En mi portafolio, encontrarás una selección de proyectos que abarcan diversos temas y funcionalidades. Desde un CRUD hasta sitios web para una tienda de ropas, cada proyecto refleja mi dedicación al arte del desarrollo web y mi compromiso con la excelencia técnica.</p>
+                <br></br>  
+                <p>Algunas de las tecnologías que utilizo en mis proyectos incluyen JavaScript, CSS y HTML para la creación de interfaces de usuario. Además, tengo el diseño de varias APIs que están enlazadas con  bases de datos relacionales como MySQL y PostgreSQL para garantizar un almacenamiento de datos eficiente y seguro. He trabajado con Python y el framework Django, así como con Node.js, para el desarrollo de APIs con Express.js y react para el desarrollo web en las interfaces de usuario.</p>
+                <br></br>  
+                <p>Mi objetivo al compartir estos proyectos es mostrar mis habilidades y experiencia como desarrollador web, así como buscar oportunidades laborales que me permitan seguir creciendo y desarrollándome profesionalmente en el campo del desarrollo web.</p>
+                <br></br>                 
+
                 <h5 id="titulo_tauro">Tauro Shop</h5>
 
                 <br></br>

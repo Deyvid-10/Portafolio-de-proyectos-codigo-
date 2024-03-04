@@ -11,6 +11,8 @@ function Sobre_mi() {
             <p>¡Hola! Soy Deyvid Marmolejo, Ingeniero en sistemas y computación, con un enfoque especial en el desarrollo web fullstack. Aunque no tengo experiencia laboral formal, he estado inmerso en el mundo de la programación durante un tiempo y estoy en constante proceso de aprendizaje y crecimiento.</p>
             <br></br>
             <p>A través de cursos en línea, capacitación autodidacta, proyectos personales y colaboraciones con otros estudiantes, he adquirido un conjunto sólido de habilidades en el desarrollo web full stack. Habilidades desde la creación de interfaces de usuario atractivas y funcionales utilizando tecnologías como HTML, CSS y JavaScript en el front-end, hasta la implementación de bases de datos en el back-end con tecnologías como Node.js, Express y MySQL.</p>
+            <br></br>
+            <p>Estoy emocionado por las oportunidades futuras que me permitan colaborar en proyectos emocionantes y desafiantes. Si estás interesado en mi trabajo o tienes alguna pregunta, no dudes en ponerte en contacto conmigo. ¡Espero poder trabajar juntos!</p>
 
             <div className="contenedor_datos_hobbies">
                 <div>
