@@ -1,4 +1,5 @@
 import tauro_shop from "../Img/Tauro Shop.png"
+import crud_registro_escolar from "../Img/crud-registro-escolar.png"
 import js from "../Img/js.png"
 import css from "../Img/css.png"
 import html from "../Img/html.png"
@@ -92,27 +93,43 @@ function Portafolio() {
                 <p>Algunas de las tecnologías que utilizo en mis proyectos incluyen JavaScript, CSS y HTML para la creación de interfaces de usuario. Además, tengo el diseño de varias APIs que están enlazadas con  bases de datos relacionales como MySQL y PostgreSQL para garantizar un almacenamiento de datos eficiente y seguro. He trabajado con Python y el framework Django, así como con Node.js, para el desarrollo de APIs con Express.js y react para el desarrollo web en las interfaces de usuario.</p>
                 <br></br>  
                 <p>Mi objetivo al compartir estos proyectos es mostrar mis habilidades y experiencia como desarrollador web, así como buscar oportunidades laborales que me permitan seguir creciendo y desarrollándome profesionalmente en el campo del desarrollo web.</p>
-                <br></br>                 
-
-                <h5 id="titulo_tauro">Tauro Shop</h5>
-
-                <br></br>
-
-                <p>Sitio web que simula una tienda de ropas online que se alimenta de una api creada por mi con los requerimientos que necesita el sitio para tener todos los acticulos y control de acceso necesarios.</p>
-                <br></br>
-                <p>Hecha un vistazo a mi tienda, revisa las prendas que mas te gusten, hechalas en en tu carrito y has tu compra.</p>
-                <br></br>
-
-                {lenguaje[0]}
-                {lenguaje[1]}
-                {lenguaje[2]}
-                {lenguaje[5]}
-                {lenguaje[6]}
                 
 
-                <img src={tauro_shop} alt="tauro-shop" className="img_contenedor_portafolio"></img>
+                <div className="tauro_shop">
+                    <br></br> 
+                    <h5 id="titulo_tauro">Tauro Shop (+ API)</h5>
+                    <br></br>
+                    <p>Sitio web que simula una tienda de ropas online que se alimenta de una api creada por mi con los requerimientos que necesita el sitio para tener todos los acticulos y control de acceso necesarios.</p>
+                    <br></br>
+                    <p>Hecha un vistazo a mi tienda, revisa las prendas que mas te gusten, hechalas en en tu carrito y has tu compra.</p>
+                    <br></br>
+                    {lenguaje[0]}
+                    {lenguaje[1]}
+                    {lenguaje[2]}
+                    {lenguaje[5]}
+                    {lenguaje[6]}
+                    
+                    <img src={tauro_shop} alt="tauro-shop" className="img_contenedor_portafolio"></img>
+                    {botones.boton_proyecto("asdas", "adad")}
+                </div>
 
-                {botones.boton_proyecto("asdas", "adad")}
+                <div className="tauro_shop">
+                    <br></br> 
+                    <h5 id="titulo_CRUD_Registro_escolar">CRUD Registro escolar (+ API)</h5>
+                    <br></br>
+                    <p>Sitio web que simula una tienda de ropas online que se alimenta de una api creada por mi con los requerimientos que necesita el sitio para tener todos los acticulos y control de acceso necesarios.</p>
+                    <br></br>
+                    <p>Hecha un vistazo a mi tienda, revisa las prendas que mas te gusten, hechalas en en tu carrito y has tu compra.</p>
+                    <br></br>
+                    {lenguaje[0]}
+                    {lenguaje[1]}
+                    {lenguaje[2]}
+                    {lenguaje[5]}
+                    {lenguaje[6]}
+                    
+                    <img src={crud_registro_escolar} alt="tauro-shop" className="img_contenedor_portafolio"></img>
+                    {botones.boton_proyecto("https://crud-registro-escolar.netlify.app/", "adad")}
+                </div>
 
             </div>
         </div>

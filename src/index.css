@@ -537,6 +537,11 @@ header
   color: #039BE5;
 }
 
+#titulo_CRUD_Registro_escolar
+{
+  color: rgb(0, 218, 146);
+}
+
 /* Estilo para la pagina de curriculum */
 #espacio_curriculum
 {
