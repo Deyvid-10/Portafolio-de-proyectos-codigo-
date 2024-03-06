@@ -99,7 +99,7 @@ function Portafolio() {
                     <br></br> 
                     <h5 id="titulo_tauro">Tauro Shop (+ API)</h5>
                     <br></br>
-                    <p>Sitio web que simula una tienda de ropas online que se alimenta de una api creada por mi con los requerimientos que necesita el sitio para tener todos los acticulos y control de acceso necesarios.</p>
+                    <p>Sitio web que simula una tienda de ropas online que se alimenta de una api creada por mi con los requerimientos que necesita el sitio para tener todos los articulos y control de acceso necesarios.</p>
                     <br></br>
                     <p>Hecha un vistazo a mi tienda, revisa las prendas que mas te gusten, hechalas en en tu carrito y has tu compra.</p>
                     <br></br>
@@ -117,10 +117,9 @@ function Portafolio() {
                     <br></br> 
                     <h5 id="titulo_CRUD_Registro_escolar">CRUD Registro escolar (+ API)</h5>
                     <br></br>
-                    <p>Sitio web que simula una tienda de ropas online que se alimenta de una api creada por mi con los requerimientos que necesita el sitio para tener todos los acticulos y control de acceso necesarios.</p>
+                    <p>En este CRUD busco simular un registro de estudiantes de una escuela. He creado esta página con el objetivo de ofrecer una solución efectiva y eficiente para la gestión de registros escolares, realizando las cuatro tareas de un CRUD creación de registros, lectura y visualización, actualización de registros y eliminación de registros.</p>
                     <br></br>
-                    <p>Hecha un vistazo a mi tienda, revisa las prendas que mas te gusten, hechalas en en tu carrito y has tu compra.</p>
-                    <br></br>
+
                     {lenguaje[0]}
                     {lenguaje[1]}
                     {lenguaje[2]}
@@ -128,7 +127,7 @@ function Portafolio() {
                     {lenguaje[6]}
                     
                     <img src={crud_registro_escolar} alt="tauro-shop" className="img_contenedor_portafolio"></img>
-                    {botones.boton_proyecto("https://crud-registro-escolar.netlify.app/", "adad")}
+                    {botones.boton_proyecto("https://crud-registro-escolar.netlify.app/", "https://github.com/Deyvid-10/CRUD-Registro-escolar")}
                 </div>
 
             </div>
