@@ -10,6 +10,8 @@ import node from "../Img/node.png"
 import mongo from "../Img/mongo.png"
 import python from "../Img/python.png"
 import base_datos from "../Img/base_datos.png"
+import postgre from "../Img/postgre.png"
+
 
 function Habilidades() {
 
@@ -40,9 +42,9 @@ function Habilidades() {
     }
 
     const img_back = [node, mysql, python, python, mongo, base_datos]
-    const nom_back = ["Express.js/Node.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL"]
-    const pro_back = ["Medio", "Medio", "Medio", "Avanzado", "Basico", "Aprendiendo"]
-    const niv_back = [2, 2, 2, 3, 1, 0]
+    const nom_back = ["Express.js/Node.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL", "PostgreSQL"]
+    const pro_back = ["Medio", "Medio", "Medio", "Avanzado", "Basico", "Aprendiendo", "Basico"]
+    const niv_back = [2, 2, 2, 3, 1, 0, 1]
 
     let elementos_back = []
     for(let back = 0; back < img_back.length; back++)
