@@ -41,7 +41,7 @@ function Habilidades() {
         
     }
 
-    const img_back = [node, mysql, python, python, mongo, base_datos]
+    const img_back = [node, mysql, python, python, mongo, base_datos, postgre]
     const nom_back = ["Express.js/Node.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL", "PostgreSQL"]
     const pro_back = ["Medio", "Medio", "Medio", "Avanzado", "Basico", "Aprendiendo", "Basico"]
     const niv_back = [2, 2, 2, 3, 1, 0, 1]
