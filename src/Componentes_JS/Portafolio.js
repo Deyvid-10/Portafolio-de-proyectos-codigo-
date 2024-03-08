@@ -110,7 +110,7 @@ function Portafolio() {
                     {lenguaje[6]}
                     
                     <img src={tauro_shop} alt="tauro-shop" className="img_contenedor_portafolio"></img>
-                    {botones.boton_proyecto("asdas", "adad")}
+                    {botones.boton_proyecto("https://main--tauro-shop.netlify.app/productos", "https://github.com/Deyvid-10/Tauro-Shop")}
                 </div>
 
                 <div className="tauro_shop">
