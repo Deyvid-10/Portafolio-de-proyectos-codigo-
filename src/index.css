@@ -479,17 +479,17 @@ header
 
 #estilo_JavaScript
 {
-  background-color: #cdcd00;
+  background-color: #E5C101;
 }
 
 #estilo_CSS
 {
-  background-color: #003cff;
+  background-color: #0458AB;
 }
 
 #estilo_HTML
 {
-  background-color: #D82727;
+  background-color: #DB1F48;
 }
 
 #estilo_Angular
@@ -499,7 +499,7 @@ header
 
 #estilo_React
 {
-  background-color: rgb(255, 0, 0);
+  background-color: #1B4480;
 }
 
 #estilo_node
@@ -509,7 +509,7 @@ header
 
 #estilo_MySQL, #estilo_HeidiSQL, #estilo_MongoDB
 {
-  background-color: #FF30AC;
+  background-color: #F12E90;
 }
 
 #estilo_Django, #estilo_Python
