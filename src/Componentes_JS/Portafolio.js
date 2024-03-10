@@ -113,7 +113,7 @@ function Portafolio() {
                     {botones.boton_proyecto("https://main--tauro-shop.netlify.app/", "https://github.com/Deyvid-10/Tauro-Shop")}
                 </div>
 
-                <div className="tauro_shop">
+                <div className="crud_registro_escolar">
                     <br></br> 
                     <h5 id="titulo_CRUD_Registro_escolar">CRUD Registro escolar (+ API)</h5>
                     <br></br>
@@ -128,6 +128,24 @@ function Portafolio() {
                     
                     <img src={crud_registro_escolar} alt="tauro-shop" className="img_contenedor_portafolio"></img>
                     {botones.boton_proyecto("https://crud-registro-escolar.netlify.app/", "https://github.com/Deyvid-10/CRUD-Registro-escolar")}
+                </div>
+
+                <div className="portafolio_proyectos">
+                    <br></br> 
+                    <h5 id="titulo_portafolio_proyectos">Portafolio de proyectos</h5>
+                    <br></br>
+                    <p>Si estás interesado en ver el código fuente de mi propio portafolio de proyectos, te invito a que eches un vistazo al repositorio correspondiente. Allí encontrarás todos los detalles sobre cómo está estructurado y podrás explorar el código para obtener una mejor comprensión de su funcionamiento y diseño.</p>
+                    <br></br>
+                    <p>No dudes en revisar el repositorio para obtener más información sobre cómo fue creado y las tecnologías utilizadas. ¡Espero que encuentres útil y educativo el contenido que encontrarás allí!</p>
+                    <br></br>
+
+                    {lenguaje[4]}
+                    {lenguaje[0]}
+                    {lenguaje[1]}
+                    {lenguaje[2]}
+                    
+                    <img src={crud_registro_escolar} alt="tauro-shop" className="img_contenedor_portafolio"></img>
+                    {botones.boton_codigo("https://github.com/Deyvid-10/Portafolio-de-proyectos-codigo-pagina")}
                 </div>
 
             </div>

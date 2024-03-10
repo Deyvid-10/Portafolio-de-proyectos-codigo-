@@ -425,14 +425,14 @@ header
   
 }
 
-.contenedor_botones
+.contenedor_botones, .boton_git
 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 10px;
 }
 
-.contenedor_boton
+.contenedor_boton, .boton_git
 {
   display: flex;
   justify-content: center;
@@ -517,7 +517,7 @@ header
   background-color: #ffd70c;
 }
 
-.imagen_boton_portafolio
+.imagen_boton_portafolio, #boton_git
 {
   width: 30px;
 }
@@ -540,6 +540,11 @@ header
 #titulo_CRUD_Registro_escolar
 {
   color: rgb(0, 218, 146);
+}
+
+#titulo_portafolio_proyectos
+{
+  color: #00CF80;
 }
 
 /* Estilo para la pagina de curriculum */
