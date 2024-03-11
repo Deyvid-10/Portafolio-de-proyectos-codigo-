@@ -514,7 +514,7 @@ header
 
 #estilo_Django, #estilo_Python
 {
-  background-color: #ffd70c;
+  background-color: #d29e00;
 }
 
 .imagen_boton_portafolio, #boton_git
@@ -545,6 +545,11 @@ header
 #titulo_portafolio_proyectos
 {
   color: #00CF80;
+}
+
+#titulo_CRUD_Registro_estudiantil
+{
+  color: #F2E34C;
 }
 
 /* Estilo para la pagina de curriculum */

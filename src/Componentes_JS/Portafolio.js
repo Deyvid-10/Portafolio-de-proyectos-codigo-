@@ -1,5 +1,6 @@
 import tauro_shop from "../Img/Tauro Shop.png"
 import crud_registro_escolar from "../Img/crud-registro-escolar.png"
+import crud_registro_estudiantil from "../Img/CRUD Registro estudiantil.jpg"
 import js from "../Img/js.png"
 import css from "../Img/css.png"
 import html from "../Img/html.png"
@@ -126,7 +127,7 @@ function Portafolio() {
                     {lenguaje[5]}
                     {lenguaje[6]}
                     
-                    <img src={crud_registro_escolar} alt="tauro-shop" className="img_contenedor_portafolio"></img>
+                    <img src={crud_registro_escolar} alt="CRUD Registro escolar (+ API)" className="img_contenedor_portafolio"></img>
                     {botones.boton_proyecto("https://crud-registro-escolar.netlify.app/", "https://github.com/Deyvid-10/CRUD-Registro-escolar")}
                 </div>
 
@@ -144,8 +145,24 @@ function Portafolio() {
                     {lenguaje[1]}
                     {lenguaje[2]}
                     
-                    <img src={crud_registro_escolar} alt="tauro-shop" className="img_contenedor_portafolio"></img>
+                    <img src={crud_registro_escolar} alt="Portafolio de proyectos" className="img_contenedor_portafolio"></img>
                     {botones.boton_codigo("https://github.com/Deyvid-10/Portafolio-de-proyectos-codigo-pagina")}
+                </div>
+
+                <div className="crud_registro_estudiantil">
+                    <br></br> 
+                    <h5 id="titulo_CRUD_Registro_estudiantil">CRUD Registro estudiantil</h5>
+                    <br></br>
+                    <p>Este CRUD, aunque similar al previamente mostrado, está desarrollado en Django con el propósito de demostrar no solo mi habilidad en JavaScript, sino también mi competencia en el manejo de frameworks de otros lenguajes como Python. Al optar por utilizar Django, busco resaltar mi versatilidad y capacidad para adaptarme a diferentes entornos de desarrollo, ampliando así mi conjunto de habilidades y ofreciendo soluciones efectivas en una variedad de tecnologías.</p>
+                    <br></br>
+
+                    {lenguaje[7]}
+                    {lenguaje[8]}
+                    {lenguaje[1]}
+                    {lenguaje[2]}
+                    
+                    <img src={crud_registro_estudiantil} alt="CRUD Registro estudiantil" className="img_contenedor_portafolio"></img>
+                    {botones.boton_proyecto("", "")}
                 </div>
 
             </div>
