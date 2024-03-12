@@ -169,9 +169,9 @@ header
 
 #contendor_inicio img
 {
-  width: 190px;
+  width: 200px;
   background-color: #fafafa;
-  border: #04B16F solid 10px;
+  border: #04B16F solid 5px;
   border-radius: 100%;
   margin-bottom: 15px;
 }
