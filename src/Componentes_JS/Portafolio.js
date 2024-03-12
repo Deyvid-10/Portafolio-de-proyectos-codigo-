@@ -162,7 +162,7 @@ function Portafolio() {
                     {lenguaje[2]}
                     
                     <img src={crud_registro_estudiantil} alt="CRUD Registro estudiantil" className="img_contenedor_portafolio"></img>
-                    {botones.boton_proyecto("", "")}
+                    {botones.boton_proyecto("", "https://github.com/Deyvid-10/CRUD-Registro-estudiantil")}
                 </div>
 
             </div>
