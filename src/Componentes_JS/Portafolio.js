@@ -178,7 +178,7 @@ function Portafolio() {
                     {lenguaje[1]}
                     {lenguaje[2]}
                     
-                    <img src={code_pro} alt="code_pro" className="code_pro"></img>
+                    <img src={code_pro} alt="code_pro" className="img_contenedor_portafolio"></img>
                     {botones.boton_codigo("https://github.com/Deyvid-10/code-pro")}
                 </div>
 
