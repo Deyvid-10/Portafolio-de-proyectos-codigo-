@@ -1,6 +1,7 @@
 import tauro_shop from "../Img/Tauro Shop.png"
 import crud_registro_escolar from "../Img/crud-registro-escolar.png"
 import crud_registro_estudiantil from "../Img/CRUD Registro estudiantil.jpg"
+import code_pro from "../Img/code pro.jpg"
 import js from "../Img/js.png"
 import css from "../Img/css.png"
 import html from "../Img/html.png"
@@ -162,7 +163,23 @@ function Portafolio() {
                     {lenguaje[2]}
                     
                     <img src={crud_registro_estudiantil} alt="CRUD Registro estudiantil" className="img_contenedor_portafolio"></img>
-                    {botones.boton_proyecto("", "https://github.com/Deyvid-10/CRUD-Registro-estudiantil")}
+                    {botones.boton_codigo("https://github.com/Deyvid-10/CRUD-Registro-estudiantil")}
+                </div>
+
+                <div className="code_pro">
+                    <br></br> 
+                    <h5 id="titulo_code_pro">Code Pro</h5>
+                    <br></br>
+                    <p>Este proyecto, que busca simular una empresa de desarrollo, marca uno de mis primeros pasos en mi capacitación como desarrollador web. Representa el inicio de mi trayectoria en este campo, ofreciendo una oportunidad para explorar y aplicar mis habilidades recién adquiridas en un entorno práctico. A través de este proyecto, he tenido la oportunidad de familiarizarme con los procesos y desafíos del desarrollo web, sentando las bases para mi crecimiento y aprendizaje continuo en esta emocionante industria.</p>
+                    <br></br>
+
+                    {lenguaje[7]}
+                    {lenguaje[8]}
+                    {lenguaje[1]}
+                    {lenguaje[2]}
+                    
+                    <img src={code_pro} alt="code_pro" className="code_pro"></img>
+                    {botones.boton_codigo("https://github.com/Deyvid-10/code-pro")}
                 </div>
 
             </div>
