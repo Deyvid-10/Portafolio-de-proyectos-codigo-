@@ -12,8 +12,11 @@ No dudes en revisar el repositorio para obtener más información sobre cómo fu
 
 -Abrir una terminal
 
--En la ruta del directorio o carpeta donde tengas guardado el proyecto, puedes ejecutar:
+-En la ruta del directorio o carpeta donde tengas guardado el proyecto instala las dependencias con el comando 'npm install'
 
+-Para iniciar el proyecto ejecuta 'npm start'
+
+### `npm install`
 ### `npm start`
 
 
