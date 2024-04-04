@@ -3,6 +3,7 @@ import front_end from "../Img/front_end.png"
 import js from "../Img/js.png"
 import css from "../Img/css.png"
 import html from "../Img/html.png"
+import tailwind  from "../Img/tailwind.png"
 import angular from "../Img/angular.png"
 import react from "../Img/react.png"
 import mysql from "../Img/mysql.png"
@@ -10,15 +11,15 @@ import node from "../Img/node.png"
 import mongo from "../Img/mongo.png"
 import python from "../Img/python.png"
 import base_datos from "../Img/base_datos.png"
-import postgre from "../Img/postgre.png"
+
 
 
 function Habilidades() {
 
-    const img_front = [js, css, html, angular, react]
-    const nom_front = ["JavaScript", "CSS", "HTML", "Angular", "React"]
-    const pro_front = ["Avanzado", "Avanzado", "Avanzado", "Aprendiendo", "Basico"]
-    const niv_front = [3, 3, 3, 0, 1]
+    const img_front = [js, css, html, tailwind, react]
+    const nom_front = ["JavaScript", "CSS", "HTML", "Tailwind CSS", "React"]
+    const pro_front = ["Avanzado", "Avanzado", "Avanzado", "Medio", "Basico"]
+    const niv_front = [3, 3, 3, 2, 1]
 
     let elementos_front = []
     for(let front = 0; front < img_front.length; front++)

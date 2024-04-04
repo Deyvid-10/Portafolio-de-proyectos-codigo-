@@ -2,6 +2,7 @@ import tauro_shop from "../Img/Tauro Shop.png"
 import crud_registro_escolar from "../Img/crud-registro-escolar.png"
 import crud_registro_estudiantil from "../Img/CRUD Registro estudiantil.jpg"
 import code_pro from "../Img/code pro.jpg"
+import portafolio_proyectos from "../Img/Portafolio-proyectos.png"
 import js from "../Img/js.png"
 import css from "../Img/css.png"
 import html from "../Img/html.png"
@@ -146,7 +147,7 @@ function Portafolio() {
                     {lenguaje[1]}
                     {lenguaje[2]}
                     
-                    <img src={crud_registro_escolar} alt="Portafolio de proyectos" className="img_contenedor_portafolio"></img>
+                    <img src={portafolio_proyectos} alt="Portafolio de proyectos" className="img_contenedor_portafolio"></img>
                     {botones.boton_codigo("https://github.com/Deyvid-10/Portafolio-de-proyectos-codigo-pagina")}
                 </div>
 
