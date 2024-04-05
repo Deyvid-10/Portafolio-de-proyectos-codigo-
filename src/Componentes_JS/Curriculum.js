@@ -1,7 +1,7 @@
 function Curriculum() {
 
     const cursos = ["Ingeniería en sistemas y computación", "Introducción a la programación", "Python", "JavaScript", "Angular", "Base de datos"]
-    const centro_educativo = ["Universidad Dominicana O&M", "Itla", "Udemy", "Udemy", "Itla", "Base de datos"]
+    const centro_educativo = ["Universidad Dominicana O&M", "Itla", "Udemy", "Udemy", "Itla", "Udemy"]
     const tiempo_estudio = ["2017-2023", "2023", "2023", "2023", "Cursando", "Cursando"]
 
     let elementos_educacion = []
