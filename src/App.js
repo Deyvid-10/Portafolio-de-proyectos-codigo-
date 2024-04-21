@@ -1,24 +1,27 @@
 import './App.css';
-import Cabecera from './Componentes_JS/Cabecera.js'
-import Inicio from './Componentes_JS/Inicio.js'
-import Sobre_mi from './Componentes_JS/Sobre_mi.js'
-import Habilidades from './Componentes_JS/Habilidades.js'
-import Portafolio from './Componentes_JS/Portafolio.js';
-import Curriculum from './Componentes_JS/Curriculum.js';
-import Contactos from './Componentes_JS/Contactos.js';
+import Cabecera from './Components/Cabecera.js'
+import Sobre_mi from './Components/Sobre_mi.js'
+import Habilidades from './Components/Habilidades.js'
+import Portafolio from './Components/Portafolio.js';
+import Curriculum from './Components/Curriculum.js';
+import Contactos from './Components/Contactos.js';
+import Pie_pagina from './Components/Pie_pagina.js';
+
+import { BrowserRouter as Router, Route, Link, Routes, NavLink} from 'react-router-dom';
 
 function App() {
 
  return(
-  <div>
-    <Cabecera/>
-    <Inicio/>
-    <Sobre_mi/>
-    <Habilidades/>
-    <Portafolio/>
-    <Curriculum/>
-    <Contactos/>
-  </div>
+  
+  <Router>
+    <Routes>
+      <Route path="/sobre_mi" element={<Sobre_mi/>}/>
+      <Route path="/habilidades" element={<Habilidades/>}/>
+      <Route path="/portafolio" element={<Portafolio/>}/>
+      <Route path="/curriculum" element={<Curriculum/>}/> 
+      <Route path="/contactos" element={<Contactos/>}/>
+    </Routes>
+  </Router>
  )
 }
 
