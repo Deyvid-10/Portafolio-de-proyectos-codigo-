@@ -3,15 +3,21 @@ import Pie_pagina from "./Pie_pagina"
 
 function Contactos() {
 
-    let activo = 'p-2 font-medium text-teal-400 cursor-pointer'
-    let inactivo = 'p-2 font-medium transition hover:text-teal-400 cursor-pointer'
+    let activo = 'mx-2 font-medium text-teal-400 cursor-pointer'
+    let inactivo = 'mx-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
     return (
      
     <div>
         <Cabecera sobre_mi = {inactivo} habilidades = {inactivo} portafolio = {inactivo} curriculum = {inactivo} contactos = {activo}/>
         <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
-        <div className="ml-5 block md:flex justify-evenly items-center md:py-10 py-2 md:w-full">
+        <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">¡Conéctate Conmigo! Estoy Listo para Colaborar en Tus Próximos Proyectos</h1>
+        <br/>
+        <p>¡Estoy emocionado por las oportunidades futuras! Si estás interesado en mi trabajo o tienes alguna pregunta, no dudes en contactarme. Estoy abierto a nuevas oportunidades y ansioso por colaborar en proyectos emocionantes.</p>
+        <br/>
+        <br/>
+        <br/>
+        <div className="ml-5 block md:flex justify-evenly items-center md:py-0 py-2 md:w-full">
                             <div>
                                 <a className="flex items-center group my-4 text-sm transition font-medium hover:text-teal-400" href="https://github.com/Deyvid-10" target="_blank" rel="noreferrer">
                                     <svg className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -8,7 +8,6 @@ function Cabecera(props) {
     function verMenu()
     {
       setMenu(!menu)
-      console.log(menu);
     }
   
     return (
@@ -18,7 +17,7 @@ function Cabecera(props) {
 
    
 
-        <ul className='hidden sm:flex bg-white text-zinc-800 text-sm pointer-events-auto shadow-md rounded-full px-2'>
+        <ul className='hidden sm:flex bg-white text-zinc-800 text-sm pointer-events-auto shadow-md rounded-full p-2'>
     
           <li className={props.sobre_mi}><a href="/">Sobre mi</a></li>
           <li className={props.habilidades}><a href="/habilidades">Habilidades</a></li>

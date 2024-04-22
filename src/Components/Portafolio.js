@@ -19,8 +19,8 @@ import Pie_pagina from "./Pie_pagina"
 
 function Portafolio() {
 
-    let activo = 'p-2 font-medium text-teal-400 cursor-pointer'
-    let inactivo = 'p-2 font-medium transition hover:text-teal-400 cursor-pointer'
+    let activo = 'mx-2 font-medium text-teal-400 cursor-pointer'
+    let inactivo = 'mx-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
     const img = [js, css, html, angular, react, node, mysql, python, python, mongo, base_datos]
     const texto_lenguaje = ["JavaScript", "CSS", "HTML", "Angular", "React", "Express.jsNode.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL"]

@@ -3,8 +3,8 @@ import Pie_pagina from "./Pie_pagina"
 
 function Curriculum() {
 
-    let activo = 'p-2 font-medium text-teal-400 cursor-pointer'
-    let inactivo = 'p-2 font-medium transition hover:text-teal-400 cursor-pointer'
+    let activo = 'mx-2 font-medium text-teal-400 cursor-pointer'
+    let inactivo = 'mx-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
     const cursos = ["Engresado de ingeniería en sistemas y computación", "Introducción a la programación", "Python", "JavaScript", "Angular", "Base de datos"]
     const centro_educativo = ["Universidad Dominicana O&M", "Itla", "Udemy", "Udemy", "Itla", "Udemy"]

@@ -3,8 +3,8 @@ import Pie_pagina from "./Pie_pagina.js";
 
 function Sobre_mi() {
 
-    let activo = 'p-2 font-medium text-teal-400 cursor-pointer'
-    let inactivo = 'p-2 font-medium transition hover:text-teal-400 cursor-pointer'
+    let activo = 'mx-2 font-medium text-teal-400 cursor-pointer'
+    let inactivo = 'mx-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
     return (
         
@@ -65,7 +65,7 @@ function Sobre_mi() {
                     </div>
                     <div>
                         <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">¡Hola! soy <span className="text-teal-400">Deyvid Marmolejo</span>. Ingeniero en sistemas y computación y desarrolador web.</h1>
-                        <div className="text-zinc-600">
+                        <div>
                             <br/>
                             <p>Aunque no he tenido la oportunidad de adentrarme en el ámbito laboral formal, mi trayectoria se ha visto impregnada por mi dedicación al mundo de la programación y mi constante búsqueda de conocimiento y crecimiento.</p>
                             <br/>

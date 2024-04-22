@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+p
+{
+  color: rgb(82 82 91)
+}
+
 /* TaiilWind */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';

@@ -19,8 +19,8 @@ import Pie_pagina from "./Pie_pagina"
 
 function Habilidades() {
 
-    let activo = 'p-2 font-medium text-teal-400 cursor-pointer'
-    let inactivo = 'p-2 font-medium transition hover:text-teal-400 cursor-pointer'
+    let activo = 'mx-2 font-medium text-teal-400 cursor-pointer'
+    let inactivo = 'mx-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
     const img_front = [js, css, html, tailwind, react, angular, bootstrap]
     const nom_front = ["JavaScript", "CSS", "HTML", "Tailwind CSS", "React", "Angular", "Bootstrap"]
