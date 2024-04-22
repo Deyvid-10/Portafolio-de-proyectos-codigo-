@@ -3,8 +3,8 @@ import Pie_pagina from "./Pie_pagina.js";
 
 function Sobre_mi() {
 
-    let activo = 'sm:block hidden p-2 font-medium text-teal-400 cursor-pointer'
-    let inactivo = 'sm:block hidden p-2 font-medium transition hover:text-teal-400 cursor-pointer'
+    let activo = 'p-2 font-medium text-teal-400 cursor-pointer'
+    let inactivo = 'p-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
     return (
         

@@ -1,13 +1,10 @@
-import correo from "../Img/correo-electronico.png"
-import telefono from "../Img/llamada-telefonica.png"
-
 import Cabecera from "./Cabecera"
 import Pie_pagina from "./Pie_pagina"
 
 function Contactos() {
 
-    let activo = 'sm:block hidden p-2 font-medium text-teal-400 cursor-pointer'
-    let inactivo = 'sm:block hidden p-2 font-medium transition hover:text-teal-400 cursor-pointer'
+    let activo = 'p-2 font-medium text-teal-400 cursor-pointer'
+    let inactivo = 'p-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
     return (
      

@@ -9,7 +9,7 @@ function Pie_pagina() {
       <footer className="flex flex-col items-center py-5 border-t border-zinc-200 mt-10 ">
 
         <ul className='flex flex-wrap justify-center text-zinc-600 text-sm pointer-events-auto rounded-full px-2'>
-          <li className='p-2 font-medium  transition hover:text-teal-400 cursor-pointer'><a href="/sobre_mi">Sobre mi</a></li>
+          <li className='p-2 font-medium  transition hover:text-teal-400 cursor-pointer'><a href="/">Sobre mi</a></li>
           <li className='p-2 font-medium transition hover:text-teal-400 cursor-pointer'><a href="/habilidades">Habilidades</a></li>
           <li className='p-2 font-medium transition hover:text-teal-400 cursor-pointer'><a href="/portafolio">Portafolio</a></li>
           <li className='p-2 font-medium transition hover:text-teal-400 cursor-pointer'><a href="/curriculum">Curriculum</a></li>
