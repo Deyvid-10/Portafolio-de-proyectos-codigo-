@@ -37,7 +37,7 @@ function Contactos() {
                                     <p className="ml-2">Dergarga mi CV</p>
                                 </a>
                             </div>
-                            <div className="md:w-1 md:h-full md:border-l w-full h-1 border-t my-2 border-zinc-200"></div>
+                            <div className="md:w-1 md:h-36 md:border-l w-full h-1 border-t my-2 border-zinc-200"></div>
                             <div>
                                 <a className="flex items-center group my-4 text-sm transition font-medium hover:text-teal-400" href="mailto:marmolejodeyvid@gmail.com" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" viewBox="0 0 16 16">
