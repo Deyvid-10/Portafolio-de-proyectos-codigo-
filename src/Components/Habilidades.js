@@ -12,7 +12,7 @@ import python from "../Img/python.png"
 import base_datos from "../Img/base_datos.png"
 import github from "../Img/github.png"
 import bootstrap from "../Img/bootstrap.png"
-
+import postman from "../Img/postman.svg"
 
 import Cabecera from "./Cabecera"
 import Pie_pagina from "./Pie_pagina"
@@ -24,8 +24,8 @@ function Habilidades() {
 
     const img_front = [js, css, html, tailwind, react, angular, bootstrap]
     const nom_front = ["JavaScript", "CSS", "HTML", "Tailwind CSS", "React", "Angular", "Bootstrap"]
-    const pro_front = ["Avanzado", "Avanzado", "Avanzado", "Medio", "Basico", "Aprendiendo", "Aprendiendo"]
-    const niv_front = [3, 3, 3, 2, 1, 0, 0]
+    const pro_front = ["Avanzado", "Avanzado", "Avanzado", "Medio", "Basico", "Aprendiendo", "Medio"]
+    const niv_front = [3, 3, 3, 2, 1, 0, 2]
 
     let elementos_front = []
     for(let front = 0; front < img_front.length; front++)
@@ -75,10 +75,10 @@ function Habilidades() {
         
     }
 
-    const img_otros = [github]
-    const nom_otros = ["GitHub"]
-    const pro_otros = ["Medio"]
-    const niv_otros = [2]
+    const img_otros = [github, postman]
+    const nom_otros = ["GitHub", "Postman"]
+    const pro_otros = ["Medio", "Medio"]
+    const niv_otros = [2, 2]
 
     let elementos_otros = []
     for(let ot = 0; ot < img_otros.length; ot++)
@@ -91,7 +91,7 @@ function Habilidades() {
                     <h3 className="font-bold">{nom_otros[ot]}</h3>
                     <h3 className="flex justify-between">Nivel: <span>{pro_otros[ot]}</span></h3>
 
-                    {grafico(niv_back[ot])}
+                    {grafico(niv_otros[ot])}
                 </div>
 
                 
