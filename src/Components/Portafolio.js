@@ -1,3 +1,4 @@
+import noticias_hoy from "../Img/Noticias-hoy.png"
 import tauro_shop from "../Img/Tauro Shop.png"
 import crud_registro_escolar from "../Img/crud-registro-escolar.png"
 import crud_registro_estudiantil from "../Img/CRUD Registro estudiantil.jpg"
@@ -13,6 +14,7 @@ import node from "../Img/node.png"
 import mongo from "../Img/mongo.png"
 import python from "../Img/python.png"
 import base_datos from "../Img/base_datos.png"
+import tail_wind from "../Img/tailwind.png"
 
 import Cabecera from "./Cabecera"
 import Pie_pagina from "./Pie_pagina"
@@ -22,8 +24,8 @@ function Portafolio() {
     let activo = 'mx-2 font-medium text-teal-400 cursor-pointer'
     let inactivo = 'mx-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
-    const img = [js, css, html, angular, react, node, mysql, python, python, mongo, base_datos]
-    const texto_lenguaje = ["JavaScript", "CSS", "HTML", "Angular", "React", "Express.jsNode.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL"]
+    const img = [js, css, html, angular, react, node, mysql, python, python, mongo, base_datos, tail_wind]
+    const texto_lenguaje = ["JavaScript", "CSS", "HTML", "Angular", "React", "Express.jsNode.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL", "Tailwind CSS"]
     
     let lenguaje = []
 
@@ -100,6 +102,22 @@ function Portafolio() {
                     <p>Mi objetivo al compartir estos proyectos es mostrar mis habilidades y experiencia como desarrollador web, así como buscar oportunidades laborales que me permitan seguir creciendo y desarrollándome profesionalmente en el campo del desarrollo web.</p>
                     <br/>
                     <br/>
+
+                    <div className="Noticias_hoy">
+                        <br></br>
+                        <h5 className="md:text-4xl text-2xl font-bold tracking-tight text-zinc-700">Noticias Hoy (+ API)</h5>
+                        <br></br>
+                        {lenguaje[4]}
+                        {lenguaje[0]}
+                        {lenguaje[1]}
+                        {lenguaje[11]}
+                        {lenguaje[2]}
+                        {lenguaje[5]}
+                        {lenguaje[6]}
+            
+                        <img src={notic} alt="tauro-shop" className="rounded-3xl shadow-md"></img>
+                        <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/Breaking-News", "https://noticias-hoy.netlify.app/")}</div>
+                    </div>
 
                     <div className="Tauro_shop">
                         <br></br>
