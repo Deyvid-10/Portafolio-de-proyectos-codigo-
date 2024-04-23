@@ -109,6 +109,22 @@ function Portafolio() {
                         <br></br>
                         <p>Noticias Hoy es una plataforma digital que te mantiene actualizado con las últimas noticias y eventos tanto a nivel local como global. Desarrollada utilizando una API creada por mí, la cual consulta información de usuarios y artículos desde una base de datos propia, garantizando así un acceso rápido y confiable a la información más relevante. Además, integra otras APIs externas como OpenWeatherMap para brindar información meteorológica en tiempo real y GetGeoAPI para obtener datos actualizados sobre divisas. Con un diseño intuitivo y contenido variado, Noticias Hoy se posiciona como tu fuente confiable para mantenerte informado sobre los acontecimientos más importantes del día.</p>
                         <br></br>
+                        <p>Cuenta con un control de privilegios con el cual se pueden hacer modificaciones según el usuario.</p>
+                        <br></br>
+                        <p>La cuenta administradora puede hacer cambios en todos los artículos:</p>
+                        <br></br>
+                        <p>Usuario: admin@admin.com</p>
+                        <p>contraseña : 12345</p>
+                        <br></br>
+                        <p>Las demas cuentas solo pueden hacer cambios solo en los artículos que esas mismas cuentas han publicado:</p>
+                        <br></br>
+                        <p>Usuario: pubone@pub.com</p>
+                        <p>contraseña : 12345</p>
+                        <br></br>
+                        <p>Usuario: pubtwo@pub.com</p>
+                        <p>contraseña : 12345</p>
+                        <br></br>
+
                         {lenguaje[4]}
                         {lenguaje[0]}
                         {lenguaje[1]}
@@ -118,7 +134,7 @@ function Portafolio() {
                         {lenguaje[6]}
             
                         <img src={noticias_hoy} alt="tauro-shop" className="rounded-3xl shadow-md"></img>
-                        <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/Breaking-News", "https://noticias-hoy.netlify.app")}</div>
+                        <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/Breaking-News", "https://noticias-hoy.netlify.app/login")}</div>
                     </div>
 
                     <div className="Tauro_shop">
