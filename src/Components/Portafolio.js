@@ -107,6 +107,8 @@ function Portafolio() {
                         <br></br>
                         <h5 className="md:text-4xl text-2xl font-bold tracking-tight text-zinc-700">Noticias Hoy (+ API)</h5>
                         <br></br>
+                        <p>Noticias Hoy es una plataforma digital que te mantiene actualizado con las últimas noticias y eventos tanto a nivel local como global. Desarrollada utilizando una API creada por mí, la cual consulta información de usuarios y artículos desde una base de datos propia, garantizando así un acceso rápido y confiable a la información más relevante. Además, integra otras APIs externas como OpenWeatherMap para brindar información meteorológica en tiempo real y GetGeoAPI para obtener datos actualizados sobre divisas. Con un diseño intuitivo y contenido variado, Noticias Hoy se posiciona como tu fuente confiable para mantenerte informado sobre los acontecimientos más importantes del día.</p>
+                        <br></br>
                         {lenguaje[4]}
                         {lenguaje[0]}
                         {lenguaje[1]}
