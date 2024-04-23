@@ -115,7 +115,7 @@ function Portafolio() {
                         {lenguaje[5]}
                         {lenguaje[6]}
             
-                        <img src={notic} alt="tauro-shop" className="rounded-3xl shadow-md"></img>
+                        <img src={noticias_hoy} alt="tauro-shop" className="rounded-3xl shadow-md"></img>
                         <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/Breaking-News", "https://noticias-hoy.netlify.app")}</div>
                     </div>
 
