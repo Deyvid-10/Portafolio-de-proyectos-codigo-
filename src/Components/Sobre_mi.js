@@ -9,7 +9,7 @@ function Sobre_mi() {
     return (
         
         <div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/prueba-36dc0.appspot.com/o/1714150786390%20662a948fe90f6.jpeg?alt=media&token=539ea6b8-0915-41fe-8138-1a449c352d0b"/>
+            <img src=""/>
             <Cabecera sobre_mi = {activo} habilidades = {inactivo} portafolio = {inactivo} curriculum = {inactivo} contactos = {inactivo}/>
             <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
                 <div className="lg:flex flex-row-reverse">
