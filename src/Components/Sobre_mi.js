@@ -9,7 +9,6 @@ function Sobre_mi() {
     return (
         
         <div>
-            <img src=""/>
             <Cabecera sobre_mi = {activo} habilidades = {inactivo} portafolio = {inactivo} curriculum = {inactivo} contactos = {inactivo}/>
             <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
                 <div className="lg:flex flex-row-reverse">
