@@ -114,15 +114,15 @@ function Portafolio() {
                         <p>La cuenta administradora puede hacer cambios en todos los artículos:</p>
                         <br></br>
                         <p>Usuario: admin@admin.com</p>
-                        <p>contraseña : 12345</p>
+                        <p>contraseña: 12345</p>
                         <br></br>
-                        <p>Las demas cuentas solo pueden hacer cambios solo en los artículos que esas mismas cuentas han publicado:</p>
+                        <p>Las demás solo pueden hacer cambios en los artículos que esas mismas cuentas han publicado:</p>
                         <br></br>
                         <p>Usuario: pubone@pub.com</p>
-                        <p>contraseña : 12345</p>
+                        <p>contraseña: 12345</p>
                         <br></br>
                         <p>Usuario: pubtwo@pub.com</p>
-                        <p>contraseña : 12345</p>
+                        <p>contraseña: 12345</p>
                         <br></br>
 
                         {lenguaje[4]}
@@ -141,9 +141,9 @@ function Portafolio() {
                         <br></br>
                         <h5 className="md:text-4xl text-2xl font-bold tracking-tight text-zinc-700">Tauro Shop (+ API)</h5>
                         <br></br>
-                        <p>Sitio web que simula una tienda de ropas online que se alimenta de una api creada por mi con los requerimientos que necesita el sitio para tener todos los articulos y control de acceso necesarios.</p>
+                        <p>Sitio web que simula una tienda de ropas online que se alimenta de una API creada por mí con los requerimientos que necesita el sitio para tener todos los artículos y control de acceso necesarios.</p>
                         <br></br>
-                        <p>Hecha un vistazo a mi tienda, revisa las prendas que mas te gusten, hechalas en en tu carrito y has tu compra.</p>
+                        <p>Hecha un vistazo a mi tienda, revisa las prendas que más te gusten, agrégalo a tu carrito y haz tu compra.</p>
                         <br></br>
                         {lenguaje[0]}
                         {lenguaje[1]}
