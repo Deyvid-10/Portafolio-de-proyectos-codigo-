@@ -45,7 +45,7 @@ function Cabecera(props) {
 
         <button onClick={verMenu} className='sm:hidden flex items-center rounded-full shadow-md py-2 px-4 font-medium transition hover:text-teal-400 cursor-pointer group bg-white'>
           Menu 
-          <svg viewBox="0 0 8 6" aria-hidden="true" class="ml-2 h-auto w-2 stroke-zinc-800 transition group-hover:stroke-teal-400 dark:group-hover:stroke-zinc-400"><path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          <svg viewBox="0 0 8 6" aria-hidden="true" className="ml-2 h-auto w-2 stroke-zinc-800 transition group-hover:stroke-teal-400 dark:group-hover:stroke-zinc-400"><path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
         </button>
 
         {/* <NavLink to="/curriculum">sdasd</NavLink> */}
