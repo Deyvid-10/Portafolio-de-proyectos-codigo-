@@ -3,7 +3,6 @@ import tauro_shop from "../Img/Tauro Shop.png"
 import crud_registro_escolar from "../Img/crud-registro-escolar.png"
 import crud_registro_estudiantil from "../Img/CRUD Registro estudiantil.jpg"
 import code_pro from "../Img/code pro.jpg"
-import portafolio_proyectos from "../Img/Portafolio-proyectos.png"
 import js from "../Img/js.png"
 import css from "../Img/css.png"
 import html from "../Img/html.png"
@@ -169,22 +168,7 @@ function Portafolio() {
                         <img src={crud_registro_escolar} alt="CRUD Registro escolar (+ API)" className="rounded-3xl shadow-md"></img>
                         <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/CRUD-Registro-escolar", "https://crud-registro-escolar.netlify.app/")}</div>
                     </div>
-                    <div className="portafolio_proyectos">
-                        <br></br>
-                        <h5 className="md:text-4xl text-2xl font-bold tracking-tight text-zinc-700">Portafolio de proyectos</h5>
-                        <br></br>
-                        <p>Si estás interesado en ver el código fuente de mi propio portafolio de proyectos, te invito a que eches un vistazo al repositorio correspondiente. Allí encontrarás todos los detalles sobre cómo está estructurado y podrás explorar el código para obtener una mejor comprensión de su funcionamiento y diseño.</p>
-                        <br></br>
-                        <p>No dudes en revisar el repositorio para obtener más información sobre cómo fue creado y las tecnologías utilizadas. ¡Espero que encuentres útil y educativo el contenido que encontrarás allí!</p>
-                        <br></br>
-                        {lenguaje[4]}
-                        {lenguaje[0]}
-                        {lenguaje[1]}
-                        {lenguaje[2]}
-            
-                        <img src={portafolio_proyectos} alt="Portafolio de proyectos" className="rounded-3xl shadow-md"></img>
-                        <div className="flex justify-center mt-4">{botones.boton_codigo("https://github.com/Deyvid-10/Portafolio-de-proyectos-codigo-pagina")}</div>
-                    </div>
+                    
                     <div className="crud_registro_estudiantil">
                         <br></br>
                         <h5 className="md:text-4xl text-2xl font-bold tracking-tight text-zinc-700">CRUD Registro estudiantil</h5>

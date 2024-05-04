@@ -67,13 +67,16 @@ function Sobre_mi() {
                         <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">¡Hola!, soy <span className="text-teal-400">Deyvid Marmolejo</span>. Ingeniero en sistemas y computación y desarrollador web.</h1>
                         <div>
                             <br/>
-                            <p>Aunque no he tenido la oportunidad de adentrarme en el ámbito laboral formal, mi trayectoria se ha visto impregnada por mi dedicación al mundo de la programación y mi constante búsqueda de conocimiento y crecimiento.</p>
-                            <br/>
-                            <p>Mi experiencia se ha moldeado a través de una combinación de cursos en línea, aprendizaje autodidacta y proyectos personales, así como colaboraciones con otros entusiastas del desarrollo. Esta inmersión me ha proporcionado un conjunto sólido de habilidades en el campo del desarrollo web full stack. Desde la creación de interfaces de usuario atractivas y funcionales utilizando tecnologías como HTML, CSS y JavaScript en el front-end, hasta la implementación de bases de datos en el back-end con tecnologías como Node.js, Express y MySQL, estoy preparado para enfrentar desafíos en ambos extremos del espectro tecnológico.</p>
-                            <br/>
-                            <p>Mirando hacia el futuro, me llena de entusiasmo la idea de colaborar en proyectos emocionantes y desafiantes que me permitan seguir expandiendo mis habilidades y conocimientos. Estoy ansioso por sumergirme en nuevos proyectos y contribuir con mi experiencia y pasión al equipo.</p>
-                            <br/>
-                            <p>Si estás interesado en explorar oportunidades de trabajo conjunto o simplemente tienes alguna pregunta sobre mi trayectoria y habilidades, no dudes en ponerte en contacto conmigo. Estoy disponible para discutir cualquier posibilidad de colaboración y estoy emocionado por las perspectivas de crecimiento y aprendizaje que el futuro pueda traer. ¡Espero con ansias la posibilidad de trabajar juntos en emocionantes proyectos por venir!</p>
+                            <p>
+                                A pesar de mi falta de experiencia laboral formal, he desarrollado habilidades sólidas a
+                                través de la práctica en proyectos personales y la capacitación continua en instituciones
+                                reconocidas a nivel nacional y en plataformas en línea. Mi experiencia informal demuestra mi
+                                capacidad para afrontar desafíos con confianza. Desde la creación de interfaces atractivas con
+                                HTML, CSS y JavaScript en el front-end, hasta la implementación de APIs con Node.js, Express y
+                                MySQL en el back-end, estoy preparado para enfrentar desafíos en ambos extremos tecnológicos.
+                                Me entusiasma la oportunidad de colaborar en proyectos desafiantes y seguir creciendo
+                                profesionalmente.
+                            </p>
                         </div>
                     </div>
                 </div>

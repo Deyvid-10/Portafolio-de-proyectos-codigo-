@@ -10,6 +10,7 @@ import node from "../Img/node.png"
 import mongo from "../Img/mongo.png"
 import python from "../Img/python.png"
 import base_datos from "../Img/base_datos.png"
+import aws from "../Img/aws.png"
 import github from "../Img/github.png"
 import bootstrap from "../Img/bootstrap.png"
 import postman from "../Img/postman.svg"
@@ -24,78 +25,57 @@ function Habilidades() {
 
     const img_front = [js, css, html, tailwind, react, angular, bootstrap]
     const nom_front = ["JavaScript", "CSS", "HTML", "Tailwind CSS", "React", "Angular", "Bootstrap"]
-    const pro_front = ["Avanzado", "Avanzado", "Avanzado", "Medio", "Basico", "Aprendiendo", "Medio"]
-    const niv_front = [3, 3, 3, 2, 1, 0, 2]
 
     let elementos_front = []
     for(let front = 0; front < img_front.length; front++)
     {
-
         elementos_front.push(
-            <div key={front}>
-                <div className="w-60 mb-8 mr-10">
-                   
-                    <img className="w-8 mb-4" src={img_front[front]} alt={nom_front[front]}></img>
-                    <h3 className="font-bold">{nom_front[front]}</h3>
-                    <h3 className="flex justify-between">Nivel: <span>{pro_front[front]}</span></h3>
-
-                    {grafico(niv_front[front])}
-                </div>
-
-                
-
+            <div key={front} className="w-52 mb-8 mr-3 p-2 border-2 border-zinc-400 rounded flex items-center hover:bg-zinc-50">
+                <img className="w-7" src={img_front[front]} alt={nom_front[front]}></img>
+                <h3 className="ml-2 font-bold">{nom_front[front]}</h3>
             </div>
-        )
-        
+        ) 
     }
 
-    const img_back = [node, mysql, python, python, mongo, base_datos]
-    const nom_back = ["Express.js/Node.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL"]
-    const pro_back = ["Medio", "Medio", "Medio", "Avanzado", "Basico", "Aprendiendo"]
-    const niv_back = [2, 2, 2, 3, 1, 0]
+    const img_back = [node, js, mysql, python, python, mongo, base_datos, aws]
+    const nom_back = ["Node.js", "Express.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL", "Amazon Web Services"]
 
     let elementos_back = []
     for(let back = 0; back < img_back.length; back++)
     {
 
-        elementos_back.push(
-            <div key={back}>
-                <div className="w-60 mb-8 mr-10">
-                    <img className="w-8 mb-4" src={img_back[back]} alt={nom_back[back]}></img>
-                    <h3 className="font-bold">{nom_back[back]}</h3>
-                    <h3 className="flex justify-between">Nivel: <span>{pro_back[back]}</span></h3>
-
-                    {grafico(niv_back[back])}
+        if(nom_back[back] !== "Amazon Web Services")
+        {
+            elementos_back.push(
+                <div key={back} className="w-52  mb-8 mr-3 p-2 border-2 border-zinc-400 rounded flex items-center hover:bg-zinc-50">
+                    <img className="w-7" src={img_back[back]} alt={nom_back[back]}></img>
+                    <h3 className="ml-2 font-bold">{nom_back[back]}</h3>
                 </div>
-
-                
-
-            </div>
-        )
+            )
+        }
+        else
+        {
+            elementos_back.push(
+                <div key={back} className="w-56  mb-8 mr-3 p-2 border-2 border-zinc-400 rounded flex items-center hover:bg-zinc-50">
+                    <img className="w-7" src={img_back[back]} alt={nom_back[back]}></img>
+                    <h3 className="ml-2 font-bold">{nom_back[back]}</h3>
+                </div>
+            )
+        }
         
     }
 
     const img_otros = [github, postman]
     const nom_otros = ["GitHub", "Postman"]
-    const pro_otros = ["Medio", "Medio"]
-    const niv_otros = [2, 2]
 
     let elementos_otros = []
     for(let ot = 0; ot < img_otros.length; ot++)
     {
 
         elementos_otros.push(
-            <div key={ot}>
-                <div className="w-60 mb-8 mr-10">
-                    <img className="w-8 mb-4" src={img_otros[ot]} alt={nom_otros[ot]}></img>
-                    <h3 className="font-bold">{nom_otros[ot]}</h3>
-                    <h3 className="flex justify-between">Nivel: <span>{pro_otros[ot]}</span></h3>
-
-                    {grafico(niv_otros[ot])}
-                </div>
-
-                
-
+            <div key={ot} className="w-52 mb-8 mr-3 p-2 border-2 border-zinc-400 rounded flex items-center hover:bg-zinc-50">
+                <img className="w-7" src={img_otros[ot]} alt={nom_otros[ot]}></img>
+                <h3 className="ml-2 font-bold">{nom_otros[ot]}</h3>
             </div>
         )
         
@@ -148,7 +128,7 @@ function Habilidades() {
         <div>
             <Cabecera sobre_mi = {inactivo} habilidades = {activo} portafolio = {inactivo} curriculum = {inactivo} contactos = {inactivo}/>
             <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
-            <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">Desarrollo Web Versátil.</h1>
+            <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">Desarrollo web versátil.</h1>
             <br/>
             <p>Sólido conocimiento en el desarrollo de aplicaciones web utilizando una amplia gama de tecnologías y frameworks para adaptarse a las necesidades específicas del proyecto.</p>
                 <br/>
