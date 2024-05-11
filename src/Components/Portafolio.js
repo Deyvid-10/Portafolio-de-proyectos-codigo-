@@ -151,6 +151,7 @@ function Portafolio() {
                         {lenguaje[2]}
                         {lenguaje[5]}
                         {lenguaje[6]}
+                        {lenguaje[12]}
             
                         <img src={tauro_shop} alt="tauro-shop" className="rounded-3xl shadow-md"></img>
                         <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/Tauro-Shop", "https://main--tauro-shop.netlify.app/")}</div>
@@ -166,6 +167,7 @@ function Portafolio() {
                         {lenguaje[2]}
                         {lenguaje[5]}
                         {lenguaje[6]}
+                        {lenguaje[12]}
             
                         <img src={crud_registro_escolar} alt="CRUD Registro escolar (+ API)" className="rounded-3xl shadow-md"></img>
                         <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/CRUD-Registro-escolar", "https://crud-registro-escolar.netlify.app/")}</div>
