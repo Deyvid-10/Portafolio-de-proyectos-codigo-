@@ -14,6 +14,7 @@ import mongo from "../Img/mongo.png"
 import python from "../Img/python.png"
 import base_datos from "../Img/base_datos.png"
 import tail_wind from "../Img/tailwind.png"
+import aws from "../Img/aws.webp"
 
 import Cabecera from "./Cabecera"
 import Pie_pagina from "./Pie_pagina"
@@ -23,8 +24,8 @@ function Portafolio() {
     let activo = 'mx-2 font-medium text-teal-400 cursor-pointer'
     let inactivo = 'mx-2 font-medium transition hover:text-teal-400 cursor-pointer'
 
-    const img = [js, css, html, angular, react, node, mysql, python, python, mongo, base_datos, tail_wind]
-    const texto_lenguaje = ["JavaScript", "CSS", "HTML", "Angular", "React", "Express.jsNode.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL", "Tailwind CSS"]
+    const img = [js, css, html, angular, react, node, mysql, python, python, mongo, base_datos, tail_wind, aws]
+    const texto_lenguaje = ["JavaScript", "CSS", "HTML", "Angular", "React", "Express.jsNode.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL", "Tailwind CSS", "Amazon Web Services"]
     
     let lenguaje = []
 
@@ -131,6 +132,7 @@ function Portafolio() {
                         {lenguaje[2]}
                         {lenguaje[5]}
                         {lenguaje[6]}
+                        {lenguaje[12]}
             
                         <img src={noticias_hoy} alt="tauro-shop" className="rounded-3xl shadow-md"></img>
                         <div className="flex justify-center mt-4">{botones.boton_proyecto("https://github.com/Deyvid-10/Breaking-News", "https://noticias-hoy.netlify.app/login")}</div>
