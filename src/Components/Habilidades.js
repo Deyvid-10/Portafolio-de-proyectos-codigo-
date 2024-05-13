@@ -9,7 +9,6 @@ import mysql from "../Img/mysql.png"
 import node from "../Img/node.png"
 import mongo from "../Img/mongo.png"
 import python from "../Img/python.png"
-import base_datos from "../Img/base_datos.png"
 import aws from "../Img/aws.png"
 import github from "../Img/github.png"
 import bootstrap from "../Img/bootstrap.png"
@@ -37,8 +36,8 @@ function Habilidades() {
         ) 
     }
 
-    const img_back = [node, js, mysql, python, python, mongo, base_datos, aws]
-    const nom_back = ["Node.js", "Express.js", "MySQL", "Django", "Python", "MongoDB", "HeidiSQL", "Amazon Web Services"]
+    const img_back = [node, js, mysql, python, python, mongo, aws]
+    const nom_back = ["Node.js", "Express.js", "MySQL", "Django", "Python", "MongoDB", "Amazon Web Services"]
 
     let elementos_back = []
     for(let back = 0; back < img_back.length; back++)
