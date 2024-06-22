@@ -80,53 +80,11 @@ function Habilidades() {
         
     }
 
-    function grafico(nivel)
-    {
-        let graf_nivel = []
-
-        switch (nivel) {
-            case 3:
-                graf_nivel.push(
-                    <div className="bg-zinc-400 h-2 rounded-full" key={nivel}>
-                        <div className="bg-black w-3/4 h-2 rounded-full"></div>
-                    </div>
-                    )
-                return graf_nivel;
-
-            case 2:
-                graf_nivel.push(
-                    <div className="bg-zinc-400 h-2 rounded-full" key={nivel}>
-                        <div className="bg-black w-2/4 h-2 rounded-full"></div>
-                    </div>
-                    )
-                return graf_nivel;
-
-            case 1:
-                graf_nivel.push(
-                    <div className="bg-zinc-400 h-2 rounded-full" key={nivel}>
-                        <div className="bg-black w-1/4 h-2 rounded-full"></div>
-                    </div>
-                    )
-                return graf_nivel;
-
-            case 0:
-                graf_nivel.push(
-                    <div className="bg-zinc-400 h-2 rounded-full" key={nivel}>
-                        
-                    </div>
-                    )
-                return graf_nivel;
-        
-            default:
-                break;
-        }
-    }
-
     return (
      
         <div>
             <Cabecera sobre_mi = {inactivo} habilidades = {activo} portafolio = {inactivo} curriculum = {inactivo} contactos = {inactivo}/>
-            <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
+            <div className="pt-28 lg:px-0 px-3 mx-auto customContainer">
             <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">Desarrollo web versátil.</h1>
             <br/>
             <p>Sólido conocimiento en el desarrollo de aplicaciones web utilizando una amplia gama de tecnologías y frameworks para adaptarse a las necesidades específicas del proyecto.</p>

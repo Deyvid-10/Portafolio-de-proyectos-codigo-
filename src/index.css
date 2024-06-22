@@ -62,15 +62,33 @@ p
   background-color: rgb(209, 209, 3);
 }
 
+/* Contenedor */
+.customContainer
+{
+  width: 950px;
+}
+
 /* Responsive */
 @media (max-width: 1280px) 
 {
-  
+
+}
+
+@media (max-width: 1024px) 
+{
+  .customContainer
+  {
+    /* width: 66.666667%; */
+    width: 91.666667%;;
+  }
 }
 
 @media (max-width: 768px) 
 {
-
+  .customContainer
+  {
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) 

@@ -91,7 +91,7 @@ function Portafolio() {
             
             <Cabecera sobre_mi = {inactivo} habilidades = {inactivo} portafolio = {activo} curriculum = {inactivo} contactos = {inactivo}/>
 
-            <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
+            <div className="pt-28 lg:px-0 px-3 mx-auto customContainer">
                 <div>
                     <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">¡Bienvenido a mi portafolio de proyectos!</h1>
                     <br></br>

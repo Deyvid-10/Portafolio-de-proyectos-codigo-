@@ -10,7 +10,7 @@ function Sobre_mi() {
         
         <div>
             <Cabecera sobre_mi = {activo} habilidades = {inactivo} portafolio = {inactivo} curriculum = {inactivo} contactos = {inactivo}/>
-            <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
+            <div className="pt-28 lg:px-0 px-3 mx-auto customContainer">
                 <div className="lg:flex flex-row-reverse">
                     <div className="lg:block md:flex block md:mb-6 lg:mx-5">
                         <img className="lg:w-full w-56 rounded-xl -rotate-3" src={process.env.PUBLIC_URL + "img/portada1.png"} alt="Portada"/>

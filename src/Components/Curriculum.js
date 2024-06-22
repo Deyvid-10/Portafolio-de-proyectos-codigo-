@@ -38,7 +38,7 @@ function Curriculum() {
      
         <div>
             <Cabecera sobre_mi = {inactivo} habilidades = {inactivo} portafolio = {inactivo} curriculum = {activo} contactos = {inactivo}/>
-            <div className="pt-28 lg:w-8/12 md:w-10/12 lg:px-0 px-4 mx-auto">
+            <div className="pt-28 lg:px-0 px-3 mx-auto customContainer">
                 <h1 className="md:text-5xl text-2xl font-bold tracking-tight text-zinc-700">Comprometido con el crecimiento profesional continuo y desempeño en roles de trabajo exigentes.</h1>
                 <br/>
                 <p>Me esfuerzo constantemente por alcanzar un crecimiento profesional continuo, mi dedicación hacia el aprendizaje y la superación personal me impulsa a enfrentar con confianza y determinación cada nuevo desafío que se presente en mi camino laboral</p>
